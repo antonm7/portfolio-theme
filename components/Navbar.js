@@ -6,8 +6,8 @@ export default function Navbar() {
     const linkedinURL = '#'
     const instegramURL = '#'
     return (
-        <div className="flex flex-col items-center justify-between z-50 w-7/12 self-center pt-10 m-auto">
-            <h1 className="font-sans font-bold text-xl">natasha.</h1>
+        <div className="flex flex-col h-0 items-center justify-between z-50 w-7/12 self-center m-auto">
+            <h1 className="font-sans font-bold text-xl pt-8">natasha.</h1>
             <div className="pt-2">
                 <Link href={twitterURL}><FontAwesomeIcon icon={faTwitter} className="text-2xl mx-2 text-blue-400 hover:text-blue-500 cursor-pointer"/></Link>
                 <Link href={linkedinURL}><FontAwesomeIcon icon={faLinkedin} className="text-2xl  mx-2 text-blue-900 hover:text-blue-800 cursor-pointer"/></Link>

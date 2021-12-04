@@ -5,7 +5,7 @@ export default function Main() {
     const path = '/images/main-image.png'
 
     return (
-        <div className="lg:flex lg:flex-row">
+        <div className="lg:flex lg:flex-row pt-12" id="main">
             <div className="w-full md:w-full w-6/12 md:pl-20 pl-12 flex">
                 <a className="transform rotate-180 text-center font-bold self-end mb-12" href='/pdf/sample.pdf' download style={{ writingMode: 'vertical-rl' }}>download cv</a>
                 <Fade left>
